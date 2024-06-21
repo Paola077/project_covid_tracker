@@ -1,7 +1,7 @@
 import Home from "./pages/Home"
 import "./components/home/nav/nav.css"
 import { Route, Routes } from "react-router-dom"
-import Tracker1 from "./pages/Tracker1.jsx"
+import Dashboard from "./pages/Dashboard.jsx"
 
 
 const App = () =>{
@@ -9,7 +9,7 @@ const App = () =>{
         <>
     <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/tracker1' element={<Tracker1 />} />
+            <Route path='/dashboard' element={<Dashboard />} />
         </Routes>
         
         </>

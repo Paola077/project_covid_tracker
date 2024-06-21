@@ -1,5 +1,4 @@
 import NavButton from './NavButton.jsx';
-import { Link } from 'react-router-dom';
 
 const list = [
   { link: "Home", url: "/" },
@@ -8,7 +7,7 @@ const list = [
   { link: "Pages", url: "#" },
   { link: "About", url: "#" },
   { link: "Help", url: "#" },
-  { link: "Tracker", url: "/tracker1" }
+  { link: "Tracker", url: "/dashboard" }
 ];
 
 const NavLinks = () => {
