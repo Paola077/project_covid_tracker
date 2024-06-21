@@ -5,6 +5,7 @@ import SideBar from '../components/tracker0/SideBar'
 const Tracker1 = () => {
   return (
     <SideBar/>
+    
   )
 }
 

@@ -1,3 +1,5 @@
+
+
 const SideBar = () =>{
     return (
 
@@ -7,5 +9,6 @@ const SideBar = () =>{
             <li>holi</li>
         </ul>
     </div>
+   
     )}
     export default SideBar
