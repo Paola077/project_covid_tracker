@@ -1,0 +1,58 @@
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.navSide {
+    background-color: #F7F8FC;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Bars3, .ChartPie, .Squares, .Folder, .SquaresStack , .ArrowTrendingUp, .GlobeAlt, .ChatBubbleLeft, .CircleIcon{
+    font-family: 'Themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #3639AE;
+    font-size: 30px;
+    height: 100px;
+    /* Mejorar el renderizado */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 5px;
+}
+.menuSideBar {
+
+    height: 100vh;
+    display: flex;
+    margin-top: 50px;
+   
+
+}
+.menuSideBar ul li {
+    display: flex;
+    list-style: none;
+    
+}
+.menuSideBar ul li:active {
+    background-color: #3639AE;
+
+}
+
+.logoSide{
+
+width: 60px;
+height: 60px;
+margin: 20px 20px;
+animation: rotate 6s linear infinite;
+
+}
