@@ -1,34 +1,14 @@
 import NavButton from './NavButton.jsx';
+import { Link } from 'react-router-dom';
 
 const list = [
-  {
-    link: "Home",
-    url: "#"
-  },
-  {
-    link: "Prevention",
-    url: "#"
-  },
-  {
-    link: "Qurantine",
-    url: "#"
-  },
-  {
-    link: "Pages",
-    url: "#"
-  },
-  {
-    link: "About",
-    url: "#"
-  },
-  {
-    link: "Help",
-    url: "#"
-  },
-  {
-    link: "Tracker",
-    url: "https://www.google.com"
-  }
+  { link: "Home", url: "/" },
+  { link: "Prevention", url: "#" },
+  { link: "Qurantine", url: "#" },
+  { link: "Pages", url: "#" },
+  { link: "About", url: "#" },
+  { link: "Help", url: "#" },
+  { link: "Tracker", url: "/tracker1" }
 ];
 
 const NavLinks = () => {
