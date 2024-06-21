@@ -4,10 +4,10 @@ import SideBar from '../components/tracker0/SideBar'
 import "../components/tracker0/sideBar.css"
 
 
-const Tracker1 = () => {
+const Dashboard = () => {
   return (
     <SideBar/>
   )
 }
 
-export default Tracker1
+export default Dashboard
