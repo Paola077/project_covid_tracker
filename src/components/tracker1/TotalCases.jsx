@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react';
 import axios from 'axios';
+import "./totalCases.css"
 
 
 const TotalCases=()=>{
@@ -15,11 +16,10 @@ const TotalCases=()=>{
     })
 return(
 <>
-<div>
-    <h3>Total Cases</h3>
-    {country}
-    <p>{totalCases}</p>
-    <img src="src/assets/img/covid-defult.svg"/>
+<div className='totalCases'> 
+    <p>Total Cases:{country}</p>
+    <p className='txt'>{totalCases}</p>
+    <img src="src/assets/img/covid-defult.svg" className='img'/>
 </div>
 </>
 )
