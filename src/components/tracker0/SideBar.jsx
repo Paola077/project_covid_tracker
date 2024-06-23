@@ -22,11 +22,7 @@ const SideBar = () =>{
           
         </ul>
     </div>
-<<<<<<< HEAD
     </div>
     </nav>
-=======
-   
->>>>>>> feature/virus
     )}
     export default SideBar
