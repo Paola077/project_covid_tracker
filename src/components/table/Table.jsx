@@ -36,7 +36,7 @@ const Table = () => {
         },
         {
             name: 'New Cases',
-            selector: row => row.newCases,
+            selector: row => row.todayCases,
             sortable: true,
         },
         {
@@ -46,7 +46,7 @@ const Table = () => {
         },
         {
             name: 'New Deaths',
-            selector: row => row.newDeaths,
+            selector: row => row.todayDeaths,
             sortable: true,
         },
         {
@@ -66,7 +66,7 @@ const Table = () => {
         },
         {
             name: 'Tested',
-            selector: row => row.tested,
+            selector: row => row.tests,
             sortable: true,
         },
     ]
