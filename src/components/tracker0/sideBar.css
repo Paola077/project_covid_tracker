@@ -12,6 +12,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+    position: fixed;
 }
 
 .Bars3, .ChartPie, .Squares, .Folder, .SquaresStack , .ArrowTrendingUp, .GlobeAlt, .ChatBubbleLeft, .CircleIcon{
@@ -24,27 +26,43 @@
     line-height: 1;
     color: #3639AE;
     font-size: 30px;
-    height: 100px;
+    padding: 20px;
     /* Mejorar el renderizado */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin-right: 5px;
+    margin-bottom: 4rem;
+    
+    
 }
 .menuSideBar {
-
-    height: 100vh;
+    height: 100%;
+}
+.menuSideBar ul{
     display: flex;
-    margin-top: 50px;
+    list-style: none;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    
+}
+.menuSideBar ul li span:active {
+    background-color: #3639AE;
+    border-color: #3639AE;
+    color: #F7F8FC;
+    border-radius: 10px;
+    padding: 20px;
+ 
    
 
 }
-.menuSideBar ul li {
-    display: flex;
-    list-style: none;
-    
-}
-.menuSideBar ul li:active {
+.menuSideBar ul li span:hover {
     background-color: #3639AE;
+    border-color: #3639AE;
+    color: #F7F8FC;
+    border-radius: 10px;
+    padding: 20px;
+
 
 }
 
@@ -52,7 +70,7 @@
 
 width: 60px;
 height: 60px;
-margin: 20px 20px;
+margin-top: 20px;
 animation: rotate 6s linear infinite;
 
 }
