@@ -1,0 +1,46 @@
+.cardCasesContainer {
+    height: 50px;
+    padding: 20px 20px 15px 20px;
+    width: 359px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 2px solid transparent;
+    transition: transform 0.3s ease;
+    color: #293F73;
+}
+
+.cardCasesContainer:hover{
+    transform: scale(1.1);
+}
+
+.cardCasesTitle {
+    padding-bottom: 5%;
+    
+
+}
+
+.todayCasesText {
+    font-size: 10px;
+    font-weight: bold;
+    color: #999999;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.updatedCasesContainer {
+    margin-left: 10px;
+    border-radius: 2px;
+    height: 27.5px;
+    background-color: white;
+}
+
+.cardCasesData {
+    font-size: 26px;
+    font-weight: bold;
+}
+
