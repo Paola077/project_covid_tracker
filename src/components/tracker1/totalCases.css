@@ -1,0 +1,47 @@
+@keyframes rotate{
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(360deg);
+}
+
+}
+.tarjetaContent{
+   margin-top: 20px;
+    display: flex;
+    width: 250px;
+    height: 150px;
+    overflow: hidden; 
+    transition: transform 0.3s ease-in-out;
+    
+}
+.tarjetaContent:hover{
+    transform: translateY(-10px);
+}
+.tarjetaContent:hover .img{
+    animation: rotate 2s linear infinite;
+}
+.totalCases{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 8%;
+    gap: 10%;
+}
+.img{
+    margin-left: 25px;
+    opacity: 0.1;
+    width: 100%; 
+    height: auto;
+    position: absolute; 
+    top: -25px; 
+}
+.txt{
+    color: #3639AE;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.imgContent{
+    width: 200px;  
+    position: relative;        
+}
