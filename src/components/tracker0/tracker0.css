@@ -1,6 +1,109 @@
+ 
+.columTracker0 {
+  font-family: 'Poppins', sans-serif;
+  width: 420px;
+  height: 100vh; 
+  font-size: 13px;
+  font-weight: 100;
+  color: #090909;
+  text-align: left;
+  margin-left: 9.5%;
 
-.menuContainer {
-    border: 10px solid black;
-    width: 600px;
-    height: 100vh;
 }
+
+h2 {
+    
+    margin-bottom: 2%;
+    text-align: justify;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.cardsBgStyleTotal {
+  background-color: #fff2f2;
+  margin-left: 2%;
+  color: #293F73;
+}
+
+.cardsBgStyleTotal:hover {
+  border: solid 2px #ff0000;
+}
+
+.cardDataStyleTotal {
+  color: #ff0000;
+}
+
+.cardsBgStyleActive {
+  background-color: #fff9f1;
+  margin-left: 2%;
+  color: #293F73;
+}
+
+.cardsBgStyleActive:hover {
+  border: solid 2px #ff6a07;
+}
+
+.cardDataStyleActive {
+  color: #ff6a07;
+}
+
+.cardsBgStyleRecovered {
+  background-color: #edffec;
+  margin-left: 2%;
+  color: #293F73;
+}
+
+.cardsBgStyleRecovered:hover {
+  border: solid 2px #82c519;
+}
+
+.cardDataStyleRecovered {
+  color: #82c519;
+}
+
+.cardsBgStyleDeaths {
+  background-color: #eefbff;
+  margin-left: 2%;
+  color: #293F73;
+}
+
+.cardsBgStyleDeaths:hover {
+  border: solid 2px #3639ae;
+}
+
+.cardDataStyleDeaths {
+  color: #3639ae;
+}
+
+
+.scroll-container {
+    width: 100%; 
+    height: 100vh; 
+    overflow-y: hidden; 
+    border: 1px solid #ccc; 
+  }
+  
+  .scroll-container:hover {
+    overflow-y: auto;
+  }
+  
+  .scroll-content {
+    width: 100%;
+    }
+  
+  .scroll-container::-webkit-scrollbar {
+    width: 2px; 
+  }
+  
+  .scroll-container::-webkit-scrollbar-track {
+    background: #f3eeee; 
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: #afadad; 
+    border-radius: 5px; 
+  }
+  
+  
+  
+ 
