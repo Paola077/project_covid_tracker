@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from '../services/Axios';  // Importa la instancia personalizada de Axios
+import axios from '../services/Axios';  
 import './tracker0.css';
 import TopTen from '../TopTen/TopTen';
 import CardCases from '../CardCases/CardCases';
@@ -8,7 +8,7 @@ const Tracker0 = () => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const url = 'all';  // Usa solo el endpoint ya que la base URL está configurada en la instancia de Axios
+    const url = 'all';  
 
     useEffect(() => {
         const getData = async () => {
@@ -17,7 +17,7 @@ const Tracker0 = () => {
                 setData(response.data);
             } catch (error) {
                 console.error('Error fetching data: ', error);
-                setError(error);  // Manejo del estado de error
+                setError(error);  
             } finally {
                 setLoading(false);
             }
@@ -38,7 +38,7 @@ const Tracker0 = () => {
             <div className="scroll-container">
                 <div className="scroll-content">
                     <div>
-                        <h2>COVID-19 Tracker</h2>
+                        <h3>COVID-19 Tracker</h3>
                     </div>
                     <CardCases
                         key="total"
