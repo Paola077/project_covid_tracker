@@ -1,4 +1,5 @@
 import NavButton from './NavButton.jsx';
+import "./nav.css"
 
 const list = [
   { link: "Home", url: "/" },
@@ -23,3 +24,4 @@ const NavLinks = () => {
   );
 };
 export default NavLinks;
+
