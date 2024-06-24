@@ -1,6 +1,5 @@
 import React from "react";
 import "./cardTopTen.css";
-import useFetch from "../services/UseFetch"
 
 const CardTopten = (props) => {
     return (
