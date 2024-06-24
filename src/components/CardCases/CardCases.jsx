@@ -6,7 +6,7 @@ const CardCases = (props) => {
     <>
       <div className={`cardCasesContainer ${props.cardsBgStyle}`}>
         <div className="cardCasesTitle">
-          <h2>{props.cardText}</h2>
+          <h5>{props.cardText}</h5>
         </div>
         <div className="flex updatedCasesContainer">
           <p className="todayCasesText">{props.smallTextValue}</p>
