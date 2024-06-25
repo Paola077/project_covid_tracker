@@ -1,13 +1,13 @@
 // Topten.jsx
 import React, { useState, useEffect } from "react";
-import axios from "../services/Axios";  // Importa la instancia de Axios configurada
+import axios from "../services/Axios"; 
 import "./topTen.css";
 import CardTopten from "../CardTopTen/CardTopTen";
 
 const Topten = () => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
-    const url = "countries";  // Usa solo el endpoint ya que la base URL está configurada en la instancia de Axios
+    const url = "countries";  
 
     useEffect(() => {
         const getData = async () => {
