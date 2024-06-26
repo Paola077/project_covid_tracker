@@ -1,5 +1,6 @@
 import React from 'react'
 import TitleComp from '../components/TitlesTrakers/TitleComp'
+import Table from '../components/table/Table'
 
 
 const Tracker2 = () => {
@@ -7,6 +8,7 @@ const Tracker2 = () => {
      
         <div>
         <TitleComp title='Ajax Data Table - Covid-19 Country Wise State'/>
+        <Table></Table>
         </div>
       
     )

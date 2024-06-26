@@ -10,8 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-jvectormap/core": "^1.0.4",
+    "@react-jvectormap/world": "^1.1.2",
     "axios": "^1.7.2",
+<<<<<<< HEAD
     "boostrap": "^2.0.0",
+=======
+    "bootstrap": "^5.3.3",
+>>>>>>> origin/main
     "datatables.net": "^2.0.8",
     "datatables.net-bs5": "^2.0.8",
     "datatables.net-responsive": "^3.0.2",
