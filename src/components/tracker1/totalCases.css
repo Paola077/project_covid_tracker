@@ -46,3 +46,27 @@ transform: rotate(360deg);
     position: relative;  
           
 }
+.casesStyleBlue{
+    color: #3639ae ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.casesStyleGreen{
+    color: #82c519;
+    font-size: 30px;
+    font-weight: bold;
+}
+.casesStyleOrange{
+    color: #ff6a07;
+    font-size: 30px;
+    font-weight: bold;
+}
+.titleStyle{
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-bottom: solid 1px rgba(156, 155, 155, 0.149);
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
