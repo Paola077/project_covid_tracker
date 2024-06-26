@@ -1,0 +1,21 @@
+
+.custom-card {
+    max-width: 12.5rem;
+  }
+  
+.custom-flag {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+.custom-cases {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #293F73;
+  }
+
+.card-title {
+    color: #293F73;
+    font-weight: normal;
+  }

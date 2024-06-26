@@ -1,6 +1,6 @@
 import React from 'react'
 import TitleComp from '../components/TitlesTrakers/TitleComp'
-import CountriesTable from '../components/tracker3/CountriesTable'
+import CountriesTable from '../components/tracker3/countryTable/CountriesTable'
 
 const Tracker3 = () => {
     return (

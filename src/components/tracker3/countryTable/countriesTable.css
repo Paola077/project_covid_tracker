@@ -1,0 +1,11 @@
+.containerTable {
+    display: flex;
+    flex-direction: row; 
+    gap: 16px;
+}
+
+.containerTable .DataTable {
+    min-width: 200px; 
+    max-width: 300px; 
+    flex: 1;
+}
