@@ -27,3 +27,11 @@ nav a{
     margin-top: -0.31rem;
     }
     
+
+.specialStyle {
+        border: none;
+        background-color: #3639ae;
+        padding: 10px 40px;
+        border-radius: 50px;
+        cursor: pointer;
+}

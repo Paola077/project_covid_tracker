@@ -21,13 +21,7 @@ header{
     margin: auto;
 }
 
-#tracker{
-    border: none;
-    background-color: #3639ae;
-    padding: 0.63rem 2.50rem;
-    border-radius: 3.13rem;
-    cursor: pointer;
-}
+
 
 #info {
     width: 35%;
