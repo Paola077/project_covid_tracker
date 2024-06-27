@@ -1,5 +1,6 @@
 import NavButton from './NavButton.jsx';
 import "./nav.css"
+import LogoWhite from '../../LogoWhite/LogoWhite.jsx';
 
 const list = [
   { link: "Home", url: "/" },
@@ -18,7 +19,7 @@ const NavLinks = () => {
   
   return (
     <nav>
-      <img src="src/assets/img/logo-white.png" id="logoCovid" alt="Logo"/>
+      <LogoWhite />
       {aList}
     </nav>
   );
