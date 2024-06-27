@@ -1,19 +1,19 @@
 .titleCompCard{
-    background-color: #F7F8FC;
     width: 100%;
-    padding-top: 30px;
-    padding-left: 40px;
+    padding-top: 1.88rem;
+    padding-left: 2.50rem;
 }
 
 .titleComp{
-    color: #293F73;
-    font-size: 21px;
+    color: #12125C;
+    font-size: 1.31rem;
+    font-weight: bolder;
 }
 
 hr{
     border-color: #E5E6F6;
-    width: 93%;
-    margin-top: 30px;
+    width: 100%;
+    margin-top: 1.88rem;
     margin-bottom: 0;
     justify-self: center;
 }

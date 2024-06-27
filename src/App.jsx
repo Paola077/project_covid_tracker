@@ -1,15 +1,13 @@
-import Home from "./pages/Home"
-import "./components/home/nav/nav.css"
-import { Route, Routes } from "react-router-dom"
-import Dashboard from "./pages/Dashboard.jsx"
+import { RouterProvider } from "react-router-dom";
+import {router} from "./routes"
+
+
+
 
 const App = () =>{
     return(
         <>
-    <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/dashboard' element={<Dashboard />} />
-        </Routes>
+<RouterProvider router={router} />
         </>
     )
 }
