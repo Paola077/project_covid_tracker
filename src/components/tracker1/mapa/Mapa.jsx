@@ -1,16 +1,14 @@
 import { worldMill } from "@react-jvectormap/world";
 import { VectorMap } from "@react-jvectormap/core";
 import { colorScale, countries } from "./Countries";
-// import './mapa.css'
 
 const Mapa = () => {
+ 
   return (
-    <div style={{ margin: "auto", width: "700px", height: "600px" }}>
+    <div style={{ margin: "auto", height: "450px" }}>
       <VectorMap
         map={worldMill}
         containerStyle={{
-          width: "700px",
-          height: "600px",
         }}
         backgroundColor="#d0e2f0"
         series={{
@@ -32,7 +30,7 @@ const Mapa = () => {
                   </b>
                   </p>
                   <p>
-                  ${countries[code]}
+                  ${code}
                   </p>
                   </div>`);
         }}
@@ -50,5 +48,4 @@ const Mapa = () => {
     </div>
   );
 };
-
 export default Mapa;

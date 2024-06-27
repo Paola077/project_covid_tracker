@@ -5,13 +5,13 @@ const TotalConfirmed = ({totalTitleStyle,totalTitleValue,confirmedStyle,confirme
  
   return (
     <>
-      <div className="card">
+      <div className="tarjetaContentTotal">
         <div className="box">
           <img src={`src/assets/img/${imageName}`} className="imgConfirm" />
         </div>
         <div className="totalConfirmed">
-          <p className={totalTitleStyle}>{totalTitleValue}</p>
-          <p className={confirmedStyle}>{confirmedValue}</p>
+          <span className={totalTitleStyle}>{totalTitleValue}</span>
+          <span className={confirmedStyle}>{confirmedValue}</span>
         </div>
       </div>
     </>

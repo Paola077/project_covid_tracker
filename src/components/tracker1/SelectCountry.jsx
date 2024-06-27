@@ -1,6 +1,7 @@
 import  { useState, useEffect } from "react";
 import './selectCountry.css'
 import { getCovidDataByCountry} from "../../services/apiServices.js";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const SelectCountry = ({ onSelectCountry }) => {
     const [allCountries, setAllCountries] = useState(null);
@@ -34,7 +35,8 @@ const SelectCountry = ({ onSelectCountry }) => {
         >
           <option value="">Select a Country</option>
           {allCountries.map((countryObject) => (
-            <option className="option" 
+            <option 
+            className="option" 
             key={countryObject.country} 
             value={countryObject.country}>{countryObject.country}
             </option>
