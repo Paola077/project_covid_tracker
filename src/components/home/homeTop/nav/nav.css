@@ -1,0 +1,29 @@
+
+#logoCovid{
+    width: auto;
+    object-fit: contain; 
+}
+
+nav a{
+    font-weight: bold;
+    margin-right: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: flex-start;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-icon {
+    font-family: 'MiIcono';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: 10px; 
+    margin-top: -5px;
+    }
+    
