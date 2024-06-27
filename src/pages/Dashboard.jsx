@@ -12,7 +12,7 @@ const Dashboard = () => {
     <div className='ContainerTrackers'>
         <SideBar />
         <Tracker0 />
-        <main><Outlet/></main>
+        <main className='trackerMainContainer'><Outlet/></main>
         </div>
         </>
   )
