@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getDataByCountry } from "../services/apiService";  // Usa la función exportada en lugar de axios directamente
+import { getDataByCountry } from "../../services/apiService";  // Usa la función exportada en lugar de axios directamente
 import "./topTen.css";
 import CardTopten from "../CardTopTen/CardTopTen";
 

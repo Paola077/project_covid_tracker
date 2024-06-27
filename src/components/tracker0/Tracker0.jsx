@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './tracker0.css'
 import TopTen from '../TopTen/TopTen'
-import { getDataGlobal } from '../services/apiService';
+import { getDataGlobal } from '../../services/apiService';
 import CardCases from '../CardCases/CardCases'
 
 const Tracker0 = () => {

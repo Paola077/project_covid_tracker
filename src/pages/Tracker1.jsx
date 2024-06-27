@@ -2,9 +2,9 @@ import SelectCountry from "../components/tracker1/SelectCountry.jsx";
 import { useState, useEffect } from "react";
 import TotalCases from "../components/tracker1/TotalCases.jsx";
 import {
-  getCovidDataByCountry,
-  getCovidDataGlobal,
-} from "../services/apiServices.js";
+  getDataByCountry,
+  getDataGlobal,
+} from "../services/apiService.js";
 import TotalConfirmed from "../components/tracker1/TotalConfirmed.jsx";
 import Mapa from "../components/tracker1/mapa/Mapa.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,7 +17,7 @@ const Tracker1 = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const result = await getCovidDataByCountry();
+        const result = await getDataByCountry();
         result[result.length] = {
           country: "DEFAULT",
           cases: 0,
@@ -29,7 +29,7 @@ const Tracker1 = () => {
           active: 0,
         };
         setData(result);
-        const resultGlobal = await getCovidDataGlobal();
+        const resultGlobal = await getDataGlobal();
         setDataGlobal(resultGlobal);
       } catch (error) {
         console.error("Error fetching COVID data:", error);

@@ -1,6 +1,6 @@
 import  { useState, useEffect } from "react";
 import './selectCountry.css'
-import { getCovidDataByCountry} from "../../services/apiServices.js";
+import { getDataByCountry} from "../../services/apiService";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const SelectCountry = ({ onSelectCountry }) => {
@@ -10,7 +10,7 @@ const SelectCountry = ({ onSelectCountry }) => {
     useEffect(() => {
       const fetchData=async()=>{
         try{
-          const data= await getCovidDataByCountry();
+          const data= await getDataByCountry();
           setAllCountries(data);
         }catch(error){
           console.error('error global data',error);
