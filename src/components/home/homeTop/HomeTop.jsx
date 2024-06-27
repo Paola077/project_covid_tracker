@@ -14,8 +14,16 @@ const HomeTop = () => {
                     <p id="subtitle">Human coronaviruses are common and are typically associated with 
                         mild illnesses, similar to the common cold. The corona virus COVID-19 is 
                         affecting 210 countries & territories around the world and 2 international conveyances</p>
-                        <div id="card">
-                            
+                        <div id="homeCard">
+                            <img className="homeFlag"/>
+                            <div className="homeTotals">
+                                <p className="homeCases">PRUEBA</p>
+                                <div className="homeTotals2">
+                                    <span className="homeApiIcon">&#xe674;</span>
+                                    <div className="homeTotalDeaths"><p>PRUEBA</p></div>
+                                    <div className="homeTotalRecovery"><p>PRUEBA</p></div>
+                                </div>
+                            </div>
                         </div>
                 </div>
                 <aside className="roundbuttonBox">

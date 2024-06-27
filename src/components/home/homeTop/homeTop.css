@@ -105,3 +105,68 @@ header{
 .green{
     background-color: #93c45b;
 }
+
+#homeCard {
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.homeFlag {
+    width: 80px;
+}
+
+.homeTotals {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeCases {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 1.9rem;
+    margin: 0;
+    
+}
+
+.homeTotals2 {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.homeTotalDeaths{
+    background-color: #FF6C0D;
+    padding:3px 7px;
+    border-radius: 3px;
+}
+
+.homeTotalRecovery {
+    background-color: #95C919;
+    padding:3px 7px;
+    border-radius: 3px;
+}
+
+.homeTotals2 p{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.homeApiIcon {
+    font-family: 'Themify';
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1;
+    color: #FF0000;
+    margin: auto;
+}
