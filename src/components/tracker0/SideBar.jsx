@@ -10,7 +10,7 @@ const SideBar = () =>{
     <div className="navSide">
     <div>
         <Link to={"/"}>
-        <img className="logoSide" src="src/assets/img/favicon.png" alt="logo sidebar" />
+        <img className="logoSide" src="src/assets/img/coronavirus.png" alt="logo sidebar" />
         </Link>
     </div>
     <div className='menuSideBar'>
