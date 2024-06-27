@@ -1,5 +1,6 @@
 import React from "react";
 import "./news.css";
+import HomeTop from "../homeTop/HomeTop";
 
 const News = () => {
     return (
