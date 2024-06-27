@@ -8,7 +8,7 @@ const list = [
   { link: "Pages", url: "#" },
   { link: "About", url: "#" },
   { link: "Help", url: "#" },
-  { link: "Tracker", url: "/dashboard" }
+  { link: "Tracker", url: "/dashboard/tracker1" }
 ];
 
 const NavLinks = () => {
