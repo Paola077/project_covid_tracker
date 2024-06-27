@@ -1,20 +1,20 @@
 import React from "react";
 import "./cardTopTen.css";
 
-const CardTopten = (props) => {
+const CardTopten = ({ toptenFlagValue, toptenNameCountryValue, toptenConfirmedCaseCountryValue }) => {
     return (
       <>
       <div className="countryContainer">
         <div className="topTenInfoData">
           <div className="toptenFlag">
-            <img src={props.toptenFlagValue} />
+            <img src={toptenFlagValue} alt={`${toptenNameCountryValue} flag`} />
           </div>
           <div className="toptenCountry">
-            <p>{props.toptenNameCountryValue}</p>
+            <p>{toptenNameCountryValue}</p>
           </div>
         </div>
         <div className="toptenConfirmedCase">
-          <p>{props.toptenConfirmedCaseCountryValue}</p>
+          <p>{toptenConfirmedCaseCountryValue}</p>
         </div>
       </div>
       </>
