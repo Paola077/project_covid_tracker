@@ -7,7 +7,7 @@ const TotalCases = ({ titleStyle, titleValue, casesStyle, casesValue, imageName 
         <div className=" container totalCases">
           <span className={ titleStyle }>{ titleValue }</span><br/>
           <span className={ casesStyle }> {casesValue} </span>
-          <img src={`src/assets/img/${ imageName }`} className="background-img" />
+          <img src={`../src/assets/img/${ imageName }`} className="background-img" />
         </div>
       </div>
     </>
