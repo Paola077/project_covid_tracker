@@ -1,7 +1,7 @@
 
 .faq {
   background: linear-gradient(90deg, rgba(15, 1, 134, 0.856), rgb(0, 213, 255)),
-    url("/images/slide-1.jpg");
+    url("src/assets/img/slide-1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
