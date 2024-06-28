@@ -1,0 +1,179 @@
+.themifyIcon{
+    font-family: 'Themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Mejorar el renderizado */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 5px; /* Ajusta este valor según tus necesidades */
+}
+
+.tiComment {
+    font-family: 'Themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Mejorar el renderizado */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: 20px; /* Ajusta este valor según tus necesidades */
+    margin-right: 5px;
+}
+.tiFacebook, .tiTwitter, .tiLinkedin, .tiYoutube {
+    font-family: 'Themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Mejorar el renderizado */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+     /* Estilos para el icono dentro del círculo */
+     display: inline-block;
+     width: 40px; /* Ancho y alto del círculo */
+     height: 40px;
+     line-height: 30px; /* Alinear el contenido verticalmente */
+     text-align: center; /* Alinear el contenido horizontalmente */
+     border-radius: 50%; /* Hacer el elemento un círculo */
+     background-color: #293F73; /* Color de fondo del círculo (azul) */
+     color: white; /* Color del icono (blanco) */
+     font-size: 16px; /* Tamaño del icono */
+     margin-left: 15px; /* Espacio entre los iconos */
+     padding-top: 2%;
+
+}
+
+.copy{
+    font-family: 'MiIcono';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Mejorar el renderizado */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 5px; /* Ajusta este valor según tus necesidades */
+}
+
+footer {
+    background-color: #1B2A4E;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+.footerTop{
+    display: flex;
+    gap: 17%;
+    padding-top: 3%;
+    
+
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.footer-logo {
+    margin-left: 5%;
+    text-align: left;
+}
+
+.Left {
+    max-width: 300px;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    
+}
+
+
+.socialNetworks{
+    margin-top: 6%;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.paragraph {
+    width: 110%;
+    margin-top: 10px;
+    margin-left: 25%;
+    text-align: left;
+    line-height: 2;
+}
+
+.footerItem {
+    padding: 1px;
+}
+
+.footerItem p {
+    color: #7481BC;
+    padding-bottom: 25% ;
+    text-align: left;
+}
+
+.footerItem p:first-child {
+    color: #ffffff;
+}
+
+.paragraph p {
+    color: #7481BC; 
+
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 80px;
+    margin-top: 0;
+    
+
+}
+
+
+.footer-line {
+    width: 100%;
+    margin: 10px auto;
+    border-color: #7481BC;
+}
+
+.footer-bottom {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 1rem;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+.containerImages, .design, .copy {
+    color: #7481BC;
+}
+
+.design .white-text {
+    color: white; 
+    
+}
+.footerBottonLeft, .footerBottonRight {
+    display: flex;
+    
+    
+}
