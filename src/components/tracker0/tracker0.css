@@ -11,12 +11,13 @@
 
 }
 
-h3 {
-    
+.title0 {
+    font-size: 2rem;
     margin-bottom: 3%;
     text-align: justify;
     margin-left: 25px;
     padding-top: 8%;
+    width: 100%;
 }
 
 .cardsBgStyleTotal {
