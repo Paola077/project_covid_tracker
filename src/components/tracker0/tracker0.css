@@ -1,22 +1,21 @@
  
 .columTracker0 {
   font-family: 'Poppins', sans-serif;
-  width: 420px;
-  height: 100vh; 
+  height: 100vh;
   font-size: 13px;
   font-weight: 100;
   color: #090909;
   text-align: left;
-  margin-left: 7%;
-
+  flex: 1;
 }
 
 .title0 {
-    font-size: 2rem;
-    margin-bottom: 3%;
-    text-align: justify;
-    margin-left: 25px;
-    padding-top: 8%;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: justify;
+  margin-left: 25px;
+  padding-top: 1rem;
+  width: 100%;
 }
 
 .cardsBgStyleTotal {
@@ -31,6 +30,8 @@
 
 .cardDataStyleTotal {
   color: #ff0000;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 .cardsBgStyleActive {
@@ -41,11 +42,15 @@
 
 .cardsBgStyleActive:hover {
   border: solid 2px #ff6a07;
+
 }
 
 .cardDataStyleActive {
   color: #ff6a07;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
+
 
 .cardsBgStyleRecovered {
   background-color: #edffec;
@@ -59,6 +64,8 @@
 
 .cardDataStyleRecovered {
   color: #82c519;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 .cardsBgStyleDeaths {
@@ -73,15 +80,18 @@
 
 .cardDataStyleDeaths {
   color: #3639ae;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 
 .scroll-container {
-    width: 100%; 
-    height: 100vh; 
-    overflow-y: hidden; 
-    border: 1px solid #ccc; 
-  }
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
   
   .scroll-container:hover {
     overflow-y: auto;
@@ -89,7 +99,10 @@
   
   .scroll-content {
     width: 100%;
-    }
+    padding: 0 1rem;
+    max-width: 100%;
+    min-width: 0;
+}
   
   .scroll-container::-webkit-scrollbar {
     width: 2px; 

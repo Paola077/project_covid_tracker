@@ -9,4 +9,8 @@
   padding: 1rem;
   border: none;
   border-radius: 0.3rem;
+  
+}
+.buttonFlag img{
+  border-radius: 50%;
 }
