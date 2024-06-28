@@ -9,4 +9,5 @@
   .trackerMainContainer {
     display: flex;
     flex: auto;
+    background-color:#F7F8FC;
 }
