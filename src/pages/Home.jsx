@@ -15,11 +15,8 @@ const Home = () => {
     <>
    <HomeTop/>
       <Symptom/>
-<<<<<<< HEAD
       <Spreads/>
-=======
       <Prevent/>
->>>>>>> 053a2ce1cb9b7deb636253d6e33c3a744985fe35
       <Faqs/>
       <Wash/>
       <News/>
