@@ -1,15 +1,13 @@
 import React from "react";
 import "./news.css";
 import HomeTop from "../homeTop/HomeTop";
+import TitleHome from "../titlesHome/TitlesHome";
 
 const News = () => {
     return (
         <div className="wrapper">
             <div className="containerNews">
-                <div className="text-center">
-                    <h4>News</h4>
-                    <h2>Latest News About Corona Virus</h2>
-                </div>
+                <TitleHome subtitle={'News'} title={'Latest News About Corona Virus'}/>
                 <div className="containerImages">
                     <div className="imageCenter">
                         <img src="src\assets\img\blog-1.jpg" alt="image covid" />
