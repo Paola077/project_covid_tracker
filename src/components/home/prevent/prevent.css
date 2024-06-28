@@ -1,0 +1,68 @@
+#containerPrevent{
+    background-color: #f0f0f0;
+    padding: 0 60px 60px 60px;
+}
+
+.boxPrevent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 4rem auto;
+    gap: 50px;
+}
+
+h2{
+    color: #293f73;
+    font-size: 3rem;
+    text-align: center;
+}
+h5{
+    color:#121158;
+    font-size: 1.35rem;
+    font-weight: bolder;
+}
+
+h4{
+    color:#121158;
+    font-size: 1.35rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#containerPrevent p{
+    color:#121158;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+.item{
+    display: flex;
+    flex: 1 0 40%;
+    gap: 40px;
+    justify-content: center;
+}
+.hexagon {
+    width: 150px;
+    height: 200px;
+    background-color:white;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin: 50px auto;
+    display: flex;
+    flex: 1 0 5%;
+    justify-content: center;
+    align-content: center;
+    object-fit: contain;
+}
+
+.item img{
+    width: 100px;
+    object-fit: contain; 
+}
+
+.preventText{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 40%;
+    justify-content: center;
+
+}
