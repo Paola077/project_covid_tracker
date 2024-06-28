@@ -14,7 +14,7 @@ const Dashboard = () => {
         <Tracker0 />
         <main className='trackerMainContainer'><Outlet/></main>
         </div>
-        </>
+    </>
   )
 }
 
