@@ -1,6 +1,7 @@
 import React from "react";
 import './homeTop.css'
 import Nav from './nav/Nav'
+import HomeApi from "./homeApi/HomeApi";
 
 const HomeTop = () => {
     
@@ -14,17 +15,7 @@ const HomeTop = () => {
                     <p id="subtitle">Human coronaviruses are common and are typically associated with 
                         mild illnesses, similar to the common cold. The corona virus COVID-19 is 
                         affecting 210 countries & territories around the world and 2 international conveyances</p>
-                        <div id="homeCard">
-                            <img className="homeFlag"/>
-                            <div className="homeTotals">
-                                <p className="homeCases">PRUEBA</p>
-                                <div className="homeTotals2">
-                                    <span className="homeApiIcon">&#xe674;</span>
-                                    <div className="homeTotalDeaths"><p>PRUEBA</p></div>
-                                    <div className="homeTotalRecovery"><p>PRUEBA</p></div>
-                                </div>
-                            </div>
-                        </div>
+                        <HomeApi/>
                 </div>
                 <aside className="roundbuttonBox">
                     <button className="roundbutton red"><span className="icon">&#xf064;</span></button>

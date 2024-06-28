@@ -1,0 +1,36 @@
+.cardContainer {
+  display: flex;
+}
+
+.cardflag {
+    display: flex;
+    align-items: center;
+  }
+  
+.flagDesign {
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 50%;
+  }
+  
+  .cardText {
+    padding-top: 20px;
+    padding-left: 10px;
+    float: right;
+  }
+
+  .countryName {
+    color: #12125C;
+    font-weight: normal;
+    font-size: 10px;
+    padding-top: 10px;
+    margin: 0;
+  }
+
+.cardData {
+    font-size: 12px;
+    font-weight: 600;
+    color: #12125C;
+    padding-bottom: 10px;
+  }
+
