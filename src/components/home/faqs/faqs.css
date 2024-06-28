@@ -5,8 +5,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 4rem 0;
-  
+  padding:0 0 4rem 0 ;
 }
 
 .faq h2 {
@@ -16,9 +15,9 @@
   width: 40%;
   margin: 0 auto;
 }
-h4 {
+.faq h4 {
   color: #ffffff;
-  font-size: 1.5rem;
+  
 }
 .faq h5 {
   color: #ffffff;
@@ -62,9 +61,7 @@ h4 {
   border: 1px solid #0c55d0;
   margin: 2rem 1rem;
 }
-.wash {
-    margin-top: 100px;
-}
+
 .washText {
     display: flex;
     flex-direction: column;
@@ -88,6 +85,7 @@ h4 {
 .washImage {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
 }
 
 .phoneContainer {
@@ -95,7 +93,7 @@ h4 {
   display: flex;
   width: 90%;
   flex-direction: row;
- margin: 200px 100px;
+ margin: 200px 100px  50px 100px;
 }
 .imagePhone {
     transform: translateY(-20%);

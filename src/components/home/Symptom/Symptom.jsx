@@ -1,13 +1,11 @@
+import TitleHome from "../titlesHome/TitlesHome";
 import "./symptom.css"
 
 const Symptom=()=>{
     return(
 <>
 <div className="symptom">
-        <div className="titleSymptom">
-            <h4 className="introSymptom">Symptom</h4>
-            <h2 className="titleBlueSymptom">Basic Symptom Against Corona virus</h2>
-        </div>
+        <TitleHome subtitle={'Symptom'} title={'Basic Symptom Against Corona Virus'}/>
         <div className="boxSymptom">
             <div className="caja box1"  >
                <img src="src/assets/img/banner-right.png" className="sizeImage"/>

@@ -3,6 +3,7 @@ import Faqs from '../components/home/faqs/Faqs.jsx'
 import Footer from '../components/home/footer/Footer.jsx'
 import HomeTop from '../components/home/homeTop/HomeTop.jsx'
 import News from '../components/home/news/News.jsx'
+import Prevent from '../components/home/prevent/Prevent.jsx'
 import Symptom from "../components/home/Symptom/Symptom.jsx"
 import Spreads from '../components/home/spreads/Spreads.jsx'
 
@@ -14,7 +15,11 @@ const Home = () => {
     <>
    <HomeTop/>
       <Symptom/>
+<<<<<<< HEAD
       <Spreads/>
+=======
+      <Prevent/>
+>>>>>>> 053a2ce1cb9b7deb636253d6e33c3a744985fe35
       <Faqs/>
       <Wash/>
       <News/>
