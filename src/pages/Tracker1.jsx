@@ -47,7 +47,7 @@ const Tracker1 = () => {
   const globalData = dataGlobal;
 
   return (
-    <div>
+    <div style={{ backgroundColor: "#F7F8FC" }}>
       <div>
         <div className="row">
           <div className="col-md-4">
@@ -57,6 +57,7 @@ const Tracker1 = () => {
             <span className="">Updated July 01, 2024</span>
           </div>
         </div>
+        <hr className="style-hr my-3"></hr>
         {countryData && (
           <div className="container my-3">
             <div className="row">
@@ -121,6 +122,7 @@ const Tracker1 = () => {
       </div>
       <div className="container my-3">
         <div className="d-flex flex-row justify-content-between">
+          <div className="me-3">
           <TotalConfirmed
             key={`${globalData.all}`}
             totalTitleStyle="totalTitleStyle"
@@ -129,6 +131,8 @@ const Tracker1 = () => {
             confirmedValue={globalData.cases}
             imageName="covid-defult.svg"
           />
+          </div>
+          <div className="me-3">
           <TotalConfirmed
             key={`${globalData.all}`}
             totalTitleStyle="totalTitleStyle"
@@ -137,6 +141,8 @@ const Tracker1 = () => {
             confirmedValue={globalData.recovered}
             imageName="covid-green.svg"
           />
+          </div>
+           <div className="me-3">
           <TotalConfirmed
             key={`${globalData.all}`}
             totalTitleStyle="totalTitleStyle"
@@ -145,6 +151,8 @@ const Tracker1 = () => {
             confirmedValue={globalData.deaths}
             imageName="covid-red.svg"
           />
+          </div>
+           <div className="me-3">
           <TotalConfirmed
             key={`${globalData.all}`}
             totalTitleStyle="totalTitleStyle"
@@ -153,6 +161,18 @@ const Tracker1 = () => {
             confirmedValue={globalData.todayDeaths}
             imageName="covid-red.svg"
           />
+          </div>
+          <div className="me-3">
+          <TotalConfirmed
+            
+            totalTitleStyle="totalTitleStyle"
+            totalTitleValue="Help Line No."
+            confirmedStyle="confirmedStyle"
+            confirmedValue="198"
+            imageName="telephone.svg"
+          />
+          </div>
+          
         </div>
       </div>
     </div>
