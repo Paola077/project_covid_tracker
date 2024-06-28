@@ -1,13 +1,11 @@
 import React from 'react'
 import "../faqs/faqs.css"
+import TitleHome from '../titlesHome/TitlesHome'
 
 const Wash = () => {
   return (
     <section class="wash">
-    <div class="washText">
-    <h4> Wash</h4>
-    <h2>Wash Your Hangs min 20 Second</h2>
-</div>
+        <TitleHome subtitle={'Wash'} title={'Wash Your Hands min 20 Second'}/>
     <div class="washImage">
         <img src="src/assets/img/wash.png" alt="logoWash"/>
     </div>
