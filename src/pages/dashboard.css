@@ -5,8 +5,8 @@
   
 
   }
+  
   .trackerMainContainer {
     display: flex;
-    
-  
-  }
+    flex: auto;
+}
