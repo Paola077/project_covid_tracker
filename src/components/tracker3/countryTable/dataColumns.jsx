@@ -67,7 +67,7 @@ export const columnsTopCases = [
     ]
     export const columnsTodayrecovered = [
         {
-        name: 'Today Recovered',
+        name: 'Top Recover',
         selector: row => ( 
         <CardTable 
             flag={row.countryInfo.flag} 
