@@ -1,6 +1,5 @@
 import NavButton from './NavButton.jsx';
 import "./nav.css"
-import LogoWhite from '../../LogoWhite/LogoWhite.jsx';
 
 const list = [
   { link: "Home", url: "/" },
@@ -9,17 +8,20 @@ const list = [
   { link: "Pages", url: "#" },
   { link: "About", url: "#" },
   { link: "Help", url: "#" },
-  { link: "Tracker", url: "/dashboard/tracker1" }
+  { link: "Tracker", url: "/dashboard/tracker1",  }
 ];
 
 const NavLinks = () => {
   const aList = list.map((link) => (
-    <NavButton key={link.link} linkButton={link}/>
+    <NavButton  
+      key={link.link} 
+      linkButton={link}
+      isSpecial={link.link === "Tracker"}
+      />
   ));
   
   return (
     <nav>
-      <LogoWhite />
       {aList}
     </nav>
   );

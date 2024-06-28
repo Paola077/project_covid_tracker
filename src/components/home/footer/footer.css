@@ -1,15 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
-}
-
-
-
-
-
-  .themifyIcon{
+.themifyIcon{
     font-family: 'Themify';
     speak: none;
     font-style: normal;
@@ -91,7 +80,8 @@ footer {
 .footerTop{
     display: flex;
     gap: 17%;
-    padding-top: 3%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     
 
 }
@@ -117,14 +107,14 @@ footer {
 
 
 .socialNetworks{
-    margin-top: 6%;
+    margin-top: 4%;
     width: 100%;
     margin-left: 5%;
 }
 
 .paragraph {
-    width: 110%;
-    margin-top: 10px;
+    width: 120%;
+    margin-top: 15px;
     margin-left: 25%;
     text-align: left;
     line-height: 2;
@@ -136,12 +126,13 @@ footer {
 
 .footerItem p {
     color: #7481BC;
-    padding-bottom: 25% ;
+    line-height: 2;
     text-align: left;
 }
 
 .footerItem p:first-child {
     color: #ffffff;
+
 }
 
 .paragraph p {
@@ -168,20 +159,19 @@ footer {
 .footer-bottom {
     display: flex;
     margin: 0 auto;
-    padding-top: 1rem;
+    padding-top: 2rem;
     justify-content: space-between;
     margin-left: 5rem;
-    margin-right: 5rem;
 }
 
 
-.containerImages, .design, .copy {
+.containerImage, .design, .copy {
     color: #7481BC;
 }
 
 .design .white-text {
     color: white; 
-    
+    margin-right: 5rem;
 }
 .footerBottonLeft, .footerBottonRight {
     display: flex;

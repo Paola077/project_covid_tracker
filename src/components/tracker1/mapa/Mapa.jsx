@@ -5,12 +5,12 @@ import { colorScale, countries } from "./Countries";
 const Mapa = () => {
  
   return (
-    <div style={{ margin: "auto", height: "450px" }}>
+    <div style={{ margin: "auto", height: "360px" }}>
       <VectorMap
         map={worldMill}
         containerStyle={{
         }}
-        backgroundColor="#d0e2f0"
+        backgroundColor="rgb(255 255 255)"
         series={{
           regions: [
             {
