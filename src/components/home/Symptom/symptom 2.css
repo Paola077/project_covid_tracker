@@ -1,0 +1,83 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, sans-serif;
+}
+
+
+.titleSymptom{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   align-items: center;
+   color: #2d2c83;
+   max-width: 1440px;
+  
+   margin: 0 80px;
+} 
+.introSymptom {
+    color: #2d2c83;
+    font-size: 1.35rem;
+    margin-top: 100px;
+}
+.titleBlueSymptom{
+    font-size: 3rem;
+    width: 70%;
+    text-align: center;
+    color: #293f73;
+}
+.txtSymptom{
+    line-height: 1.5;
+    font-size: 1.35rem;
+    color: #2d2c83;
+    
+}
+.titleCaja{
+    color: #293f73;
+    margin-left: 0%;
+    font-weight: bold;
+}
+.symptom{
+    background-color: #f0f8ff;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.boxSymptom{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+   margin-top: 70px;
+}
+.sizeImage{
+    height: 150px;
+    align-self: flex-start;
+}
+.caja{
+    background-color: white;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.box1 {
+    box-shadow: 20px 20px 30px  #2d2c8338;
+}
+
+.box2 {
+    box-shadow: 0px 20px 30px 10px  #2d2c8338;
+   height:95% ;
+}
+
+.box3 {
+    box-shadow: -20px 20px 30px 0px   #2d2c8338;
+}
