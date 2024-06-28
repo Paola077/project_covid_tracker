@@ -30,7 +30,7 @@ const Tracker0 = () => {
     <div className="scroll-container">
       <div className="scroll-content">
         <div>
-            <h2>COVID-19 Tracker</h2>
+            <h2 className='title0'>COVID-19 Tracker</h2>
         </div>
             <CardCases
               key="total"

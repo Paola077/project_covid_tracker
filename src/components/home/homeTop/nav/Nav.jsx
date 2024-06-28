@@ -1,12 +1,14 @@
 import React from "react";
 import NavLinks from "./NavLinks";
+import LogoWhite from '../../../LogoWhite/LogoWhite.jsx';
+
 
 const Nav = () => {
     return (
-        
         <header>
-        <NavLinks/>
-        </header> 
+            <LogoWhite />
+            <NavLinks/>
+        </header>
     );
 };
 
