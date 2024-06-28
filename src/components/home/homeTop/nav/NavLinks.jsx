@@ -8,17 +8,20 @@ const list = [
   { link: "Pages", url: "#" },
   { link: "About", url: "#" },
   { link: "Help", url: "#" },
-  { link: "Tracker", url: "/dashboard" }
+  { link: "Tracker", url: "/dashboard/tracker1",  }
 ];
 
 const NavLinks = () => {
   const aList = list.map((link) => (
-    <NavButton key={link.link} linkButton={link}/>
+    <NavButton  
+      key={link.link} 
+      linkButton={link}
+      isSpecial={link.link === "Tracker"}
+      />
   ));
   
   return (
     <nav>
-      <img src="src/assets/img/logo-white.png" id="logoCovid" alt="Logo"/>
       {aList}
     </nav>
   );

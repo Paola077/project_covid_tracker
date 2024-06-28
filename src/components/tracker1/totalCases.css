@@ -1,47 +1,56 @@
-@keyframes rotate{
-from {
-transform: rotate(0deg);
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-to {
-transform: rotate(360deg);
+.tarjetaContent {
+  overflow: hidden;
+  font-size: 25px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
 }
-
+.tarjetaContent:hover {
+  transform: translateY(-10px);
 }
-.tarjetaContent{
-   margin-top: 20px;
-    display: flex;
-    width: 250px;
+.tarjetaContent:hover .background-img {
+  animation: rotate 2s linear infinite;
+}
+.totalCases {
+    position: relative;
     height: 150px;
-    overflow: hidden; 
-    transition: transform 0.3s ease-in-out;
-    
 }
-.tarjetaContent:hover{
-    transform: translateY(-10px);
+.background-img {
+  opacity: 0.2;
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  height: 80%;
 }
-.tarjetaContent:hover .img{
-    animation: rotate 2s linear infinite;
+.casesStyleBlue {
+  color: #3639ae;
 }
-.totalCases{
-    display: flex;
-    flex-direction: column; 
-    margin-top: 8%;
-    gap: 10%;
+.casesStyleGreen {
+  color: #82c519;
 }
-.img{
-    margin-left: 25px;
-    opacity: 0.1;
-    width: 100%; 
-    height: auto;
-    position: absolute; 
-    top: -25px; 
+.casesStyleOrange {
+  color: #ff6a07;
 }
-.txt{
-    color: #3639AE;
-    font-weight: bold;
-    font-size: 1.5rem;
+.casesStyleRed {
+  color: red;
 }
-.imgContent{
-    width: 200px;  
-    position: relative;        
+.casesStyleLightBlue {
+  color: #2c6dff;
+}
+.casesStyleDarkRed {
+  color: #b70202;
+}
+.titleStyle {
+  color: black;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }

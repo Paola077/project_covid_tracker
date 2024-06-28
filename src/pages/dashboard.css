@@ -1,0 +1,12 @@
+.ContainerTrackers {
+    display: flex;
+    /* max-width: 1440px; */
+    height: 100vh;
+  
+
+  }
+  .trackerMainContainer {
+    display: flex;
+    
+  
+  }
