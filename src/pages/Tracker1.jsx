@@ -53,8 +53,8 @@ const Tracker1 = () => {
           <div className="col-md-4">
             <SelectCountry onSelectCountry={handleSelectCountry} />
           </div>
-          <div className="col-md-6 p-4">
-            <span className="">Updated July 01, 2024</span>
+          <div className="col-md-8 p-4">
+            <div className="text-end">Updated July 01, 2024</div>
           </div>
         </div>
         <hr className="style-hr my-3"></hr>
