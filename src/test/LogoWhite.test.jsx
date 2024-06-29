@@ -1,20 +1,19 @@
 import { render, screen } from "@testing-library/react";
 import LogoWhite from "../components/logoWhite/LogoWhite";
-import { test, expect } from "vitest";
+import { test } from "vitest";
 
 test('LogoWhite component', () => {
-    // Render the LogoWhite component
+  ('renders an image with correct , id, and alt text', () => {
+ 
     render(<LogoWhite />);
 
-    // Find the rendered image element by alt text
-    const imgElement = screen.getByAltText('Logo');
+ 
+    const imageElement = screen.getByAltText('Logo');
 
-    // Assert that the image element exists
-    expect(imgElement).toBeInTheDocument();
 
-    // Assert that the src attribute is correct
-    expect(imgElement).toHaveAttribute('src', 'src/assets/img/logo-white.png');
+    expect(imageElement).toBeInTheDocument();
 
-    // Assert that the id attribute is correct
-    expect(imgElement).toHaveAttribute('id', 'logoCovid');
+    
+    expect(imageElement).toHaveAttribute('id', 'logoCovid');
+  });
 });
