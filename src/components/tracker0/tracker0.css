@@ -2,7 +2,6 @@
 .columTracker0 {
   font-family: 'Poppins', sans-serif;
   height: 100vh;
-  font-size: 13px;
   font-weight: 100;
   color: #090909;
   text-align: left;
@@ -10,21 +9,15 @@
 }
 
 .title0 {
-<<<<<<< HEAD
-    font-size: 2rem;
-    margin-bottom: 3%;
-    text-align: justify;
-    margin-left: 25px;
-    padding-top: 8%;
-    width: 100%;
-=======
   font-size: 2rem;
   margin-bottom: 2rem;
   text-align: justify;
-  margin-left: 25px;
+  margin-left: 1rem;
   padding-top: 1rem;
   width: 100%;
->>>>>>> d290e4d78646fa9429cf65fba5db863c76347dd6
+  color: #090909;
+  font-weight: bold;
+
 }
 
 .cardsBgStyleTotal {
