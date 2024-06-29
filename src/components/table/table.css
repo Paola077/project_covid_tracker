@@ -1,5 +1,9 @@
+.table-container{
+    overflow-x: auto;
+}
+
 .tableT2 {
-    width: 80%;
+    /* width: 80%; */
     margin-top: 0.63rem;
     padding-left: 2.50rem;
     background-color: white;

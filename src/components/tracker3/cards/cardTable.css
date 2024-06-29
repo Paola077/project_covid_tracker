@@ -14,23 +14,23 @@
   }
   
   .cardText {
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-top: 1.25rem;
+    padding-left: 0.625rem;
     float: right;
   }
 
   .countryName {
     color: #12125C;
     font-weight: normal;
-    font-size: 10px;
-    padding-top: 10px;
+    font-size: 0.625rem;
+    padding-top: 0.625rem;
     margin: 0;
   }
 
 .cardData {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
     color: #12125C;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
   }
 
