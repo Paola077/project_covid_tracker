@@ -2,7 +2,7 @@ import NavButton from './NavButton.jsx';
 import "./nav.css"
 
 const list = [
-  { link: "Home", url: "/" },
+  { link: "Home", url: "/"},
   { link: "Prevention", url: "#" },
   { link: "Qurantine", url: "#" },
   { link: "Pages", url: "#" },

@@ -115,6 +115,13 @@
     background: #afadad; 
     border-radius: 5px; 
   }
+
+  @media (max-width: 768px) {
+    .columTracker0 {
+      display: none; 
+    }
+  }
+
   
   
   
