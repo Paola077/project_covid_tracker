@@ -35,7 +35,7 @@ const Topten = () => {
     return (
         <>
             <div className="topTenTitle">
-                <p>Top 10 Country</p>
+                <p className="top10Title">Top 10 Country</p>
             </div>
             <div>
                 {topTenCountries.map((element) => (
