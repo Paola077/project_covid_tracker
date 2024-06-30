@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import LogoWhite from "./LogoWhite"; 
+import LogoWhite from "../logoWhite/LogoWhite"; 
 import { test } from "vitest";
 
 test('LogoWhite component', () => {
