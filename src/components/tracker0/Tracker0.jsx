@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './tracker0.css'
-import TopTen from '../topTen/TopTen'
+import TopTen from "../topten/TopTen"
 import { getDataGlobal } from '../../services/apiService';
 import CardCases from '../cardCases/CardCases'
 
