@@ -1,8 +1,10 @@
 .topTenTitle {
     color: #293F73; ;
-    font-size: 18px;
     font-weight: bold;
-    padding-left: 8px;
-    margin-bottom: 15px;
-    margin-left: 20px;
+    margin-bottom: 1rem;
+    margin-left: 0.3rem;
+}
+
+.top10Title {
+    font-size: 1.2rem;
 }
