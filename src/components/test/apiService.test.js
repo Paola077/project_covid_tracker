@@ -3,7 +3,7 @@ import axios from "axios";
 import MockAdapter from "axios-mock-adapter";
 import { getDataGlobal, getDataByCountry} from "../services/apiService"
 
-describe('API Service', () => {
+describe('API Service Working', () => {
     let mock;
   
     beforeAll(() => {
