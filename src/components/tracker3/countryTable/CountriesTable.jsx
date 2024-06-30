@@ -2,7 +2,7 @@ import React, { useState, useEffect} from "react";
 import DataTable from "react-data-table-component";
 import { columnsTopCases, columnsTodayCases, columnsTodayDeaths, columnsTopActive, columnsTodayrecovered, columnsTodayDeathsSecond } from "./dataColumns";
 import './countriesTable.css'
-import { getDataByCountry } from "../../services/apiService";
+import { getDataByCountry } from "../../../services/apiService";
 
 const getTopCases = (result) => {
     const sortedData = result.sort((a, b) => b.updated - a.updated); 
