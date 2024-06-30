@@ -8,5 +8,4 @@ const TitleComp = ({title}) => {
         </div>
     )
 }
-
 export default TitleComp;
