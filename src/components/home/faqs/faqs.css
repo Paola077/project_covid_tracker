@@ -94,6 +94,7 @@
   width: 90%;
   flex-direction: row;
  margin: 200px 100px  50px 100px;
+ border-radius: 1rem;
 }
 .imagePhone {
     transform: translateY(-20%);

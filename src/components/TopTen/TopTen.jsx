@@ -3,7 +3,7 @@ import { getDataByCountry } from "../../services/apiService";  // Usa la funció
 import "./topTen.css";
 import CardTopten from "../cardTopTen/CardTopTen";
 
-const Topten = () => {
+const TopTen = () => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -51,4 +51,4 @@ const Topten = () => {
     );
 };
 
-export default Topten;
+export default TopTen;

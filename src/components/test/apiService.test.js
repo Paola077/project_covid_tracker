@@ -3,7 +3,7 @@ import axios from "axios";
 import MockAdapter from "axios-mock-adapter";
 import { getDataGlobal, getDataByCountry} from "../services/apiService"
 
-describe('API Service', () => {
+describe('API Service Working', () => {
     let mock;
   
     beforeAll(() => {
@@ -18,7 +18,7 @@ describe('API Service', () => {
       mock.restore();
     });
   
-    test('should fetch global COVID data', async () => {
+    test('Debería obtener datos globales de Covid', async () => {
       const mockData = { cases: 1000, deaths: 50, recovered: 900 };
       mock.onGet('https://disease.sh/v3/covid-19/all').reply(200, mockData);
   
@@ -26,7 +26,7 @@ describe('API Service', () => {
       expect(data).toEqual(mockData);
     });
   
-    test('should fetch COVID data by country', async () => {
+    test('Debería de obtener datos de Covid por país', async () => {
       const mockData = [
         { country: 'Country1', cases: 500 },
         { country: 'Country2', cases: 300 },
@@ -37,13 +37,13 @@ describe('API Service', () => {
       expect(data).toEqual(mockData);
     });
   
-    test('should handle errors when fetching global COVID data', async () => {
+    test('Debe manejar errores al obtener datos globales', async () => {
       mock.onGet('https://disease.sh/v3/covid-19/all').reply(500);
   
       await expect(getDataGlobal()).rejects.toThrow('Request failed with status code 500');
     });
   
-    test('should handle errors when fetching COVID data by country', async () => {
+    test('Debe manejar errores al obtener datos Covid por país', async () => {
       mock.onGet('https://disease.sh/v3/covid-19/countries').reply(500);
   
       await expect(getDataByCountry()).rejects.toThrow('Request failed with status code 500');

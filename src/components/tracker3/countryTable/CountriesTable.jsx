@@ -3,52 +3,41 @@ import DataTable from "react-data-table-component";
 import { columnsTopCases, columnsTodayCases, columnsTodayDeaths, columnsTopActive, columnsTodayrecovered, columnsTodayDeathsSecond } from "./dataColumns";
 import './countriesTable.css'
 import { getDataByCountry } from "../../services/apiService";
+import { mockCountriesData } from "../../test/mockData";
 
 const getTopCases = (result) => {
     const sortedData = result.sort((a, b) => b.updated - a.updated); 
-    console.log("Sorted data:", sortedData);
     const topTenData = sortedData.slice(0, 10);
-    console.log("Top 10 data:", topTenData);
     return topTenData;
 }
 
 const getTodayCases = (result) => {
     const sortedData = result.sort((a, b) => b.todayCases - a.todayCases); 
-    console.log("Sorted data:", sortedData);
     const topTenData = sortedData.slice(0, 10);
-    console.log("Top 10 data:", topTenData);
     return topTenData;
 }
 
 const getTodayDeaths = (result) => {
     const sortedData = result.sort((a, b) => b.todayDeaths - a.todayDeaths); 
-    console.log("Sorted data:", sortedData);
     const topTenData = sortedData.slice(0, 10);
-    console.log("Top 10 data:", topTenData);
     return topTenData;
 }
 
 const getTodayDeathsSecond = (result) => {
     const sortedData = result.sort((a, b) => b.todayDeaths - a.todayDeaths); 
-    console.log("Sorted data:", sortedData);
     const topTenData = sortedData.slice(0, 10);
-    console.log("Top 10 data:", topTenData);
     return topTenData;
 }
 
-const getTopActive = (result) => {
-    const sortedData = result.sort((a, b) => b.todayRecovered - a.todayRecovered); 
-    console.log("Sorted data:", sortedData);
+export const getTopActive = (result) => {
+    const sortedData = result.sort((a, b) => b.active - a.active); 
     const topTenData = sortedData.slice(0, 10);
-    console.log("Top 10 data:", topTenData);
     return topTenData;
 }
 
 const getTodayRecovered = (result) => {
-    const sortedData = result.sort((a, b) => b.active - a.active); 
-    console.log("Sorted data:", sortedData);
+    const sortedData = result.sort((a, b) => b.todayRecovered - a.todayRecovered); 
     const topTenData = sortedData.slice(0, 10);
-    console.log("Top 10 data:", topTenData);
     return topTenData;
 }
 
@@ -59,6 +48,7 @@ const getTodayRecovered = (result) => {
     const [dataTodayDeathsSecond, setDataTodayDeathsSecond] = useState([]);
     const [dataTopActive, setDataTopActive] = useState([]);
     const [dataTodayrecovered, setDataTodayrecovered] = useState([]);
+    const [loading, setLoading] = useState(true);
    
     useEffect(() => {
         const fetchData = async () => {
@@ -72,12 +62,16 @@ const getTodayRecovered = (result) => {
             setDataTodayrecovered(getTodayRecovered(result));
           } catch (error) {
             console.error('Error fetching country data: ', error);
+          }finally{
+            setLoading(false);
           }
         };
     
         fetchData();
       }, []);
-
+      if (loading) {
+        return <>Loading</>;
+      }
     return (
         <>
             <div className="containerTable"> 
