@@ -26,14 +26,14 @@
   
 }
 .lineCards {
-border: solid 1px;
+    border: 1px solid rgba(128, 128, 128, 0.404);
 
 }
  .tCases {
     background-image: url("../../assets/icons/covid-defult.svg");
     background-size: 59%;
     background-repeat: no-repeat;
-    background-position: 130% -1131%;
+    background-position: 135% 152%;
     position: relative; 
     
  }
@@ -59,7 +59,7 @@ border: solid 1px;
     background-size: 59%;
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position:130% -1131%;
+    background-position:135% 152%;
     position: relative; 
  }
 
@@ -79,7 +79,7 @@ border: solid 1px;
     background-size: 59%;
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position: 130% -1131%;
+    background-position: 135% 152%;
     position: relative; 
  }
 
@@ -99,7 +99,7 @@ border: solid 1px;
     background-size: 59%;
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position:130% -1131%;
+    background-position:135% 152%;
     position: relative; 
  }
 
@@ -119,7 +119,7 @@ border: solid 1px;
     background-size: 59%;
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position: 130% -1131%;;
+    background-position: 135% 152%;
     position: relative; 
  }
 
@@ -139,7 +139,7 @@ border: solid 1px;
     background-size: 59%;
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position: 130% -1131%;
+    background-position: 135% 152%;
     position: relative; 
  }
 
