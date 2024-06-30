@@ -49,13 +49,13 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <hr className="footer-line" />
-            <div className="footer-bottom">
+            <hr className="footerLine" />
+            <div className="footerB">
                 <div className="footerBottonLeft">
                     <span className="copy">&#xF1F9;</span><p className="containerImage">Copyright 2020. All Rights Reserved</p>
                 </div>
                 <div className="footerBottonRight">
-                    <p className="design">Design by <span className="white-text">DexignZone</span></p>
+                    <p className="design">Design by <span className="whiteText">DexignZone</span></p>
                 </div>
             </div>
         </footer>
