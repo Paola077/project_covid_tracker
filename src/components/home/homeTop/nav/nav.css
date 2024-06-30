@@ -14,20 +14,6 @@ nav a{
     color: white;
 }
 
-.nav-icon {
-    font-family: 'MiIcono';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    display: inline-block;
-    text-transform: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    margin-left: 0.63rem; 
-    margin-top: -0.31rem;
-    }
-    
-
 .specialStyle {
         border: none;
         background-color: #3639ae;
