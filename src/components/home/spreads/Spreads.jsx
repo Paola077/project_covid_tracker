@@ -7,7 +7,7 @@ const Spreads = () => {
             <div className='containerHeadTitle'>
                 <p id="notice">Spreads</p>
                 <strong>Disease spreads from</strong>
-                    <br/>
+                    {/* <br/> */}
                 <strong>person to person</strong>
             </div>
             <div className="containerCard">
