@@ -1,15 +1,14 @@
 import './spreads.css'
+import TitlesHome from '../titlesHome/TitlesHome'
 
 const Spreads = () => {
     return (
         <>
+        <div className='spreadsTitle'>
+            <TitlesHome subtitle={'Spreads'} title={'Disease spreads from person to person'}/>
+        </div>
+        
         <div className='containerSpreads'>
-            <div className='containerHeadTitle'>
-                <p id="notice">Spreads</p>
-                <strong>Disease spreads from</strong>
-                    {/* <br/> */}
-                <strong>person to person</strong>
-            </div>
             <div className="containerCard">
                 <div className='containerImagesFirst'>
                     <div className="containerBox">
