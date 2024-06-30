@@ -3,6 +3,7 @@ import DataTable from "react-data-table-component";
 import { columnsTopCases, columnsTodayCases, columnsTodayDeaths, columnsTopActive, columnsTodayrecovered, columnsTodayDeathsSecond } from "./dataColumns";
 import './countriesTable.css'
 import { getDataByCountry } from "../../services/apiService";
+import { mockCountriesData } from "../../test/mockData";
 
 const getTopCases = (result) => {
     const sortedData = result.sort((a, b) => b.updated - a.updated); 
@@ -36,8 +37,8 @@ const getTodayDeathsSecond = (result) => {
     return topTenData;
 }
 
-const getTopActive = (result) => {
-    const sortedData = result.sort((a, b) => b.todayRecovered - a.todayRecovered); 
+export const getTopActive = (result) => {
+    const sortedData = result.sort((a, b) => b.active - a.active); 
     console.log("Sorted data:", sortedData);
     const topTenData = sortedData.slice(0, 10);
     console.log("Top 10 data:", topTenData);
@@ -45,7 +46,7 @@ const getTopActive = (result) => {
 }
 
 const getTodayRecovered = (result) => {
-    const sortedData = result.sort((a, b) => b.active - a.active); 
+    const sortedData = result.sort((a, b) => b.todayRecovered - a.todayRecovered); 
     console.log("Sorted data:", sortedData);
     const topTenData = sortedData.slice(0, 10);
     console.log("Top 10 data:", topTenData);
