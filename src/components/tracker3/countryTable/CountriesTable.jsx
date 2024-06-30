@@ -4,7 +4,6 @@ import { columnsTopCases, columnsTodayCases, columnsTodayDeaths, columnsTopActiv
 import './countriesTable.css'
 import { getDataByCountry } from "../../../services/apiService";
 
-
 const getTopCases = (result) => {
     const sortedData = result.sort((a, b) => b.updated - a.updated); 
     const topTenData = sortedData.slice(0, 10);
