@@ -60,7 +60,7 @@ const Table = () => {
 
     return (
         <div className="tableT2">
-        <table ref={tableRef} className="table table-striped" style={{ width: '100%' }}></table>
+        <table ref={tableRef} className="table table-striped table-hover" style={{ width: '100%' }}></table>
         </div>
     );
 };
