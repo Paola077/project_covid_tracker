@@ -3,7 +3,6 @@ import DataTable from "react-data-table-component";
 import { columnsTopCases, columnsTodayCases, columnsTodayDeaths, columnsTopActive, columnsTodayrecovered, columnsTodayDeathsSecond } from "./dataColumns";
 import './countriesTable.css'
 import { getDataByCountry } from "../../services/apiService";
-import { mockCountriesData } from "../../test/mockData";
 
 const getTopCases = (result) => {
     const sortedData = result.sort((a, b) => b.updated - a.updated); 
