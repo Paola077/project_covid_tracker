@@ -67,8 +67,11 @@ A la izquierda se encuentra un SideBar que nos permite navegar por los diferente
 
 Tracker 1. Seleccionar País: Usa el menú desplegable para seleccionar el país del que deseas ver las estadísticas.
 Tracker 2. Elegir Tipo de Datos: Selecciona el tipo de datos (casos confirmados, recuperados, muertes) que deseas visualizar.
-Tracker 3. Interacción con Gráficos: Haz clic en los gráficos para obtener más detalles o comparar diferentes métricas.
+Tracker 3. Tabla de gráficos que muestra el Top 10 de países con diferentes tipos de filtrado.
 Tracker 4. Actualizar Datos: Los datos se actualizarán automáticamente con recargar la página para obtener la información más reciente.
+
+## Despliegue:
+https://main--joyful-sherbet-03b135.netlify.app/
 
 ## Autoras ✒️
 Carolina Botella - https://github.com/CarolBV
