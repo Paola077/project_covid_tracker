@@ -86,18 +86,7 @@ footer {
     
 
 }
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
-    padding: 0 5%;
-}
 
-.footer-logo {
-    margin-left: 5%;
-    text-align: left;
-}
 
 .Left {
     max-width: 300px;
@@ -151,13 +140,13 @@ footer {
 }
 
 
-.footer-line {
+.footerLine {
     width: 100%;
     margin: 10px auto;
     border-color: #7481BC;
 }
 
-.footer-bottom {
+.footerB {
     display: flex;
     margin: 0 auto;
     padding-top: 2rem;
@@ -170,7 +159,7 @@ footer {
     color: #7481BC;
 }
 
-.design .white-text {
+.design .whiteText {
     color: white; 
     margin-right: 5rem;
 }

@@ -27,8 +27,8 @@ const Tracker0 = () => {
 
 <>
   <div className="columTracker0">
-    <div className="scroll-container">
-      <div className="scroll-content">
+    <div className="scrollContainer">
+      <div className="scrollContent">
         <div>
             <h2 className='title0'>COVID-19 Tracker</h2>
         </div>

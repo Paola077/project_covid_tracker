@@ -14,10 +14,7 @@
     align-items: center;
 }
 
-.text-center {
-    text-align: center; 
-    margin-bottom: 40px; 
-}
+
 
 h2 {
     font-size: 3rem;
@@ -30,9 +27,6 @@ h2 {
     margin-left: 2px; /* Ajusta este valor según tus necesidades */
 }
 
-.coronavirus-title {
-    margin-top: 10px; 
-}
 
 .containerImages img {
     width: 100%; 
