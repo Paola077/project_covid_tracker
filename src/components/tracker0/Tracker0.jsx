@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './tracker0.css'
-import TopTen from "../topTen/TopTen"
+import TopTen from "../TopTen/TopTen"
 import { getDataGlobal } from '../../services/apiService';
-import CardCases from '../cardCases/CardCases'
+import CardCases from '../CardCases/CardCases'
 
 const Tracker0 = () => {
   const [data, setData] = useState(null);

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import TitleComp from "../components/titlesTrakers/TitleComp";
+import TitleComp from "../components/TitlesTrakers/TitleComp";
 import { getDataByCountry } from '../services/apiService';
 import CountryInfo from "../components/tracker4/CountryInfo"
 import CountryButton from '../components/tracker4/CountryButton';

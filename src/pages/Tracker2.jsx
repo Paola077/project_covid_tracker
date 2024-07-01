@@ -1,5 +1,5 @@
 import React from 'react'
-import TitleComp from '../components/titlesTrakers/TitleComp'
+import TitleComp from '../components/TitlesTrakers/TitleComp'
 import Table from '../components/table/Table'
 
 
